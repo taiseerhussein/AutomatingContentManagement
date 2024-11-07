@@ -1,5 +1,5 @@
 ---
-sat_server_url: "https://sat6.parmstrong.ca/"
+sat_server_url: "https://sat6.taiseerhusseinng.ca/"
 sat_organization: "Default Organization"
 sat_location: "Default Location"
 sat_publisher_username: "{{ vault_sat_publisher_username }}"

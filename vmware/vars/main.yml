@@ -1,19 +1,19 @@
-vcenter_hostname: "vcenter.parmstrong.ca"
-datacenter_name: "parmstrong.ca"
-datacenter_folder: "/parmstrong.ca/vm"
+vcenter_hostname: "vcenter.taiseerhusseinng.ca"
+datacenter_name: "taiseerhusseinng.ca"
+datacenter_folder: "/taiseerhusseinng.ca/vm"
 vcenter_username: "{{ vault_vcenter_username }}"
 vcenter_password: "{{ vault_vcenter_password }}"
 vmware_validate_certs: false
 host_list:
-- name: testjboss.parmstrong.ca
+- name: testjboss.taiseerhusseinng.ca
   snap_name: testjboss.original
   snap_description: "test base jboss build - delete me"
   quiesce: true
-- name: testlamp.parmstrong.ca
+- name: testlamp.taiseerhusseinng.ca
   snap_name: testlamp.original
   snap_description: "test base LAMP build - delete me"
   quiesce: true
-- name: testwordpress.parmstrong.ca
+- name: testwordpress.taiseerhusseinng.ca
   snap_name: testwordpress.original
   snap_description: "test base WordPress build - delete me"
   quiesce: true

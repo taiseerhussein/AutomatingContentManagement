@@ -2,7 +2,7 @@
 
 http_port: 80
 https_port: 443
-sample_app_git_repo: "https://github.com/parmstro/jboss-eap-quickstarts.git"
+sample_app_git_repo: "https://github.com/taiseerhussein/jboss-eap-quickstarts.git"
 sample_app_root: "/samples/jboss"
 sample_app_dir: "helloworld/"
 app_fingerprint: "{{ sample_app_root }}/c0df90d8-5173-4e65-bc82-88b6033fc6a7"
