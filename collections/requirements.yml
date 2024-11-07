@@ -5,3 +5,13 @@ collections:
 - community.mysql
 - community.vmware  
 - redhat.satellite
+- ansible.netcommon
+- ansible.posix
+- ansible.utils
+- ansible.windows
+- ansible.tower
+
+- redhat.satellite_operations
+- redhat.rhel_system_roles
+- redhat.insights
+- azure.azcollection
