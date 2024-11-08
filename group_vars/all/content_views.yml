@@ -10,7 +10,7 @@ content_views:
     desc: "Red Hat Enterprise Linux 8 Standard Operating Environment Content"
     org: "{{ sat_organization }}"
     repositories:
-    - name: "Red_Hat_Satellite_Tools_6_10_for_RHEL_7_for_ARM_RPMs_aarch64_7Server"
+    - name: "Red Hat Satellite Tools 6.10 for RHEL 7 for ARM RPMs aarch64 7Server"
       product: "Red Hat Enterprise Linux for ARM 64"
     filters:
     - name: "AllPackagesNoErrata"
