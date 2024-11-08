@@ -58,12 +58,7 @@ content_views:
         basearch: "x86_64"
     date_filter_name: "ErrataByDate"
     environments:
-    - "SOE_Development"
-    - "SOE_Qualification"
-    - "SOE_Production"
-    - "App_Development"
-    - "App_Qualification"
-    - "App_Production"
+    - "Library"
 
   - name: "RHEL8_SOE"
     desc: "Red Hat Enterprise Linux 8 Standard Operating Environment Content"
@@ -120,12 +115,8 @@ content_views:
         basearch: "x86_64"
     date_filter_name: "ErrataByDate"
     environments:
-    - "SOE_Development"
-    - "SOE_Qualification"
-    - "SOE_Production"
-    - "App_Development"
-    - "App_Qualification"
-    - "App_Production"
+    - "Library"
+
   
   - name: "UpgradeFromRHEL79"
     desc: "Red Hat Enterprise Linux 7 Standard Operating Environment Content"
@@ -179,7 +170,7 @@ content_views:
         basearch: "x86_64"
     date_filter_name: "ErrataByDate"
     environments:
-    - "SOE_Development"
+    - "Library"
     
   - name: "UpgradeToRHEL84"
     desc: "Red Hat Enterprise Linux 8 Standard Operating Environment Content"
@@ -232,7 +223,7 @@ content_views:
         basearch: "x86_64"
     date_filter_name: "ErrataByDate"
     environments:
-    - "SOE_Development"
+    - "Library"
     
   - name: "JBossEAP74"
     desc: "Red Hat JBoss EAP 7.4 Content"
@@ -268,10 +259,7 @@ content_views:
         - "security"
     date_filter_name: "ErrataByDate"
     environments:
-    - "SOE_Development"
-    - "SOE_Qualification"
-    - "SOE_Production"
-    - "App_Development"
+    - "Library"
     
 composite_content_views:
   - name: "RHEL79to84Upgrade"
@@ -281,10 +269,7 @@ composite_content_views:
     - "UpgradeFromRHEL79"
     - "UpgradeToRHEL84"
     environments:
-    - "SOE_Development"
-    - "SOE_Qualification"
-    - "SOE_Production"
-    - "App_Development"
+    - "Library"
   
   - name: "JBoss_SOE"
     desc: "JBoss EAP7 on RHEL8 Demonstration Content"
@@ -293,8 +278,5 @@ composite_content_views:
     - "RHEL8_SOE"
     - "JBossEAP74"
     environments:
-    - "SOE_Development"
-    - "SOE_Qualification"
-    - "SOE_Production"
-    - "App_Development"
+    - "Library"
     
