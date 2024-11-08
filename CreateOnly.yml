@@ -5,7 +5,7 @@
 # The inventory should be a list of satellite servers to create the content views on
 
 - name: Create the configured Content Views and Composite Content Views
-  hosts: all
+  hosts: localhost
  
   roles:
   - cvcreator

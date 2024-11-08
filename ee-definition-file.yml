@@ -1,0 +1,15 @@
+---
+# This is the base execution for running against parmstrong.ca
+# systems and includes the appropriate certificates
+
+version: 1
+
+build_arg_defaults:
+  EE_BASE_IMAGE: "registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel8@sha256:980ef985e4a28423b8d64666f103c20ab5aa6fc35719145103aaf2adc9755cda"
+
+# ansible_config: "ansible.cfg"
+
+dependencies:
+  galaxy: collections/requirements.yml
+  python: requirements.txt
+  system: bindep.txt
