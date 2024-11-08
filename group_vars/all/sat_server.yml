@@ -1,5 +1,5 @@
 ---
-sat_server_url: "https://sat6.taiseerhusseinng.ca/"
+sat_server_url: "https://ec2-18-117-238-216.us-east-2.compute.amazonaws.com/"
 sat_organization: "Default Organization"
 sat_location: "Default Location"
 sat_publisher_username: "{{ vault_sat_publisher_username }}"
