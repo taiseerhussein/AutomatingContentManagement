@@ -12,6 +12,8 @@ content_views:
     repositories:
     - name: "Red Hat Satellite Tools 6.10 for RHEL 7 for ARM RPMs aarch64 7Server"
       product: "Red Hat Enterprise Linux for ARM 64"
+    - name: Red Hat Ansible Engine 2.9 for RHEL 8 x86_64 RPMs
+      product: Red Hat Ansible Engine
     filters:
     - name: "AllPackagesNoErrata"
       type: "rpm"
