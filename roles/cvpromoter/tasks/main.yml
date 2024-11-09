@@ -31,7 +31,7 @@
       lifecycle_environments: "{{ target_lce }}"
     loop: "{{ composite_content_views | default([], true) }}"
 
-  when: force_promote == true
+  # when: force_promote == true
 
   # Always promote if force promote is true
   
