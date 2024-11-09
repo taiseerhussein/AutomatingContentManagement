@@ -5,3 +5,4 @@ sat_location: "chicago"
 sat_publisher_username: "{{ vault_sat_publisher_username }}"
 sat_publisher_password: "{{ vault_sat_publisher_password }}"
 sat_validate_certs: false
+target_lce: dev
