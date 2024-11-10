@@ -46,6 +46,20 @@ content_views:
     date_filter_name: "ErrataByDate"
     environments:
     - "Library"
+  - name: "RHEL 9"
+    org: "{{ sat_organization }}"
+    description: "RHEL 9 CV"
+    repositories:
+      - name: "Red Hat Enterprise Linux 9 for ARM 64 - AppStream RPMs 9"
+        product: "Red Hat Enterprise Linux for ARM 64"
+      - name: "Red Hat Enterprise Linux 9 for ARM 64 - BaseOS RPMs 9"
+        product: "Red Hat Enterprise Linux for ARM 64"
+      - name: "Red Hat Enterprise Linux 9 for ARM 64 - High Availability RPMs 9"
+        product: "Red Hat Enterprise Linux High Availability for ARM 64"
+      - name: "Red Hat Enterprise Linux 9 for ARM 64 - Supplementary RPMs 9"
+        product: "Red Hat Enterprise Linux for ARM 64"
+    environments:
+      - "Library"
 
   
   
