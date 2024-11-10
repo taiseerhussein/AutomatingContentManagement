@@ -27,13 +27,13 @@ content_views:
       description: "Include all errata updated as of {{ filter_enddate }}"
       repositories: "[]"
       rules:
-      - name: "errata-by-date-{{ filter_enddate }}"
-        end_date: "{{ filter_enddate }}"
-        date_type: "updated"
-        types:
-        - "enhancement"
-        - "bugfix"
-        - "security"
+    - name: "errata-by-date-{{ filter_enddate }}"
+      end_date: "{{ filter_enddate }}"
+      date_type: "updated"
+      types:
+      - "enhancement"
+      - "bugfix"
+      - "security"
     - name: "NoFireFox"
       type: "rpm"
       inclusion: "false"
@@ -50,16 +50,16 @@ content_views:
     org: "{{ sat_organization }}"
     description: "RHEL 9 CV"
     repositories:
-      - name: "Red Hat Enterprise Linux 9 for ARM 64 - AppStream RPMs 9"
-        product: "Red Hat Enterprise Linux for ARM 64"
-      - name: "Red Hat Enterprise Linux 9 for ARM 64 - BaseOS RPMs 9"
-        product: "Red Hat Enterprise Linux for ARM 64"
-      - name: "Red Hat Enterprise Linux 9 for ARM 64 - High Availability RPMs 9"
-        product: "Red Hat Enterprise Linux High Availability for ARM 64"
-      - name: "Red Hat Enterprise Linux 9 for ARM 64 - Supplementary RPMs 9"
-        product: "Red Hat Enterprise Linux for ARM 64"
+    - name: "Red Hat Enterprise Linux 9 for ARM 64 - AppStream RPMs 9"
+      product: "Red Hat Enterprise Linux for ARM 64"
+    - name: "Red Hat Enterprise Linux 9 for ARM 64 - BaseOS RPMs 9"
+      product: "Red Hat Enterprise Linux for ARM 64"
+    - name: "Red Hat Enterprise Linux 9 for ARM 64 - High Availability RPMs 9"
+      product: "Red Hat Enterprise Linux High Availability for ARM 64"
+    - name: "Red Hat Enterprise Linux 9 for ARM 64 - Supplementary RPMs 9"
+      product: "Red Hat Enterprise Linux for ARM 64"
     environments:
-      - "Library"
+    - "Library"
 
   
   
