@@ -47,7 +47,7 @@ content_views:
     environments:
     - "Library"
 
-  - name: "RHEL8_SOE"
+  - name: "RHEL 9"
     desc: "RHEL 9 CV"
     org: "{{ sat_organization }}"
     repositories:
