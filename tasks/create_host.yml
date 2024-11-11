@@ -35,22 +35,22 @@
       var: hosts_macs_results
     when: debugger == true
     
-  # - name: "Selecting first discovered host matching criteria"
-  #   set_fact:
-  #     target: "{{ hosts_macs_results.results | json_query('[].ansible_facts') | list | shuffle | first  }}"
+  - name: "Selecting first discovered host matching criteria"
+    set_fact:
+      target: "{{ hosts_macs_results.results | json_query('[].ansible_facts') | list | shuffle | first  }}"
   
-  # - set_fact:
-  #     target_mac: "{{ target.discovered_mac }}"
-  #     target_name: "{{ target.discovered_name }}"
+  - set_fact:
+      target_mac: "{{ target.discovered_mac }}"
+      target_name: "{{ target.discovered_name }}"
 
-  # - debug:
-  #     var: 
-  #       - target_mac
-  #       - target_name
-  #   when: debugger == true
+  - debug:
+      var: 
+        - target_mac
+        - target_name
+    when: debugger == true
         
-  # when: compute_resource == "Baremetal" and mac == "ff:ff:ff:ff:ff:ff"
-  # delegate_to: localhost
+  when: compute_resource == "Baremetal" and mac == "ff:ff:ff:ff:ff:ff"
+  delegate_to: localhost
 
 # using sync'd content - this is messy
 - name: "Deploy the virtual host"
@@ -60,7 +60,7 @@
     server_url: "{{ sat_server_url }}"
     organization: "{{ sat_organization }}"
     location: "{{ sat_location }}"
-    name: "new_host"
+    name: "fqdn"
     # domain: "{{ fqdn }}"
     comment: "{{ host_build_comment | default(omit) }}"
     hostgroup: "{{ hostgroup }}"
