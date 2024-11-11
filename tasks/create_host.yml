@@ -73,7 +73,7 @@
     build: true
     image: "{{ image }}"
     state: present
-    subnet: "10.0.16.0/20"
+    subnet: "ec2-subnet"
     compute_attributes:
       start: "1"
     validate_certs: "{{ sat_validate_certs }}"
