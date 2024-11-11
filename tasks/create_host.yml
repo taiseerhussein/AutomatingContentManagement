@@ -39,9 +39,9 @@
   #   set_fact:
   #     target: "{{ hosts_macs_results.results | json_query('[].ansible_facts') | list | shuffle | first  }}"
   
-  - set_fact:
-      target_mac: "{{ target.discovered_mac }}"
-      target_name: "{{ target.discovered_name }}"
+  # - set_fact:
+  #     target_mac: "{{ target.discovered_mac }}"
+  #     target_name: "{{ target.discovered_name }}"
 
   # - debug:
   #     var: 
