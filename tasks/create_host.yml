@@ -1,6 +1,6 @@
 - name: "Set defaults"
   set_fact:
-    target_mac: "{{ hostlist.mac }}"
+    target_mac: "{{ mac }}"
     compute_resource: "{{ compute_resource }}"
 
 - name: "Get MAC of bare metal machine"
