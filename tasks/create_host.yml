@@ -60,17 +60,17 @@
     server_url: "{{ sat_server_url }}"
     organization: "{{ sat_organization }}"
     location: "{{ sat_location }}"
-    name: "{{ machine_name }}"
-    domain: "{{ fqdn }}"
+    name: "new_host"
+    # domain: "{{ fqdn }}"
     comment: "{{ host_build_comment | default(omit) }}"
     hostgroup: "{{ hostgroup }}"
-    kickstart_repository: "{{ kickstart_repository }}"
-    compute_resource: "{{ compute_resource }}"
-    compute_profile: "{{ compute_profile }}"
-    image: "{{ image | default(omit) }}"
-    mac: "{{ target_mac }}"
-    ip: "{{ ip | default(omit) }}"
-    build: true
+    # kickstart_repository: "{{ kickstart_repository }}"
+    # compute_resource: "{{ compute_resource }}"
+    # compute_profile: "{{ compute_profile }}"
+    # image: "{{ image | default(omit) }}"
+    # mac: "{{ target_mac }}"
+    # ip: "{{ ip | default(omit) }}"
+    # build: true
     state: present
     compute_attributes:
       start: "1"
