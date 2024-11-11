@@ -71,6 +71,7 @@
     mac: "{{ target_mac }}"
     ip: "{{ ip | default(omit) }}"
     build: true
+    image: {{ image }}
     state: present
     compute_attributes:
       start: "1"
