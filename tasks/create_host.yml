@@ -61,7 +61,7 @@
     organization: "{{ sat_organization }}"
     location: "{{ sat_location }}"
     name: "{{ fqdn }}"
-   # domain: "{{ fqdn }}"
+    domain: "us-east-2.compute.internal"
     comment: "{{ host_build_comment | default(omit) }}"
     hostgroup: "{{ hostgroup }}"
     kickstart_repository: "{{ kickstart_repository }}"
