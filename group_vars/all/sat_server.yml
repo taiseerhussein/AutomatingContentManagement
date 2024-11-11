@@ -7,4 +7,10 @@ sat_publisher_password: "{{ vault_sat_publisher_password }}"
 sat_validate_certs: false
 target_lce: dev
 current_lce: Library
+fqdn: "us-east-2.compute.internal"
+hostgroup: "dev-hg"
+kickstart_repository: "Red Hat Enterprise Linux 9 for x86_64 - BaseOS RPMs 9"
+compute_resource: "aws"
+compute_profile: "2-Medium"
 mac: "00:50:56:ff:ff:ff"
+dhostname: ""
