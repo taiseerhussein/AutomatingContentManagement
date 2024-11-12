@@ -1,6 +1,6 @@
 # the inventory is defined on the AAP controller
 [webservers]
-testlamp.taiseerhusseinng.ca
+testlamp.us-east-2.compute.internal
 
 [dbservers]
-testlamp.taiseerhusseinng.ca
+testlamp.us-east-2.compute.internal
