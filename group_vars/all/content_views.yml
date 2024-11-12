@@ -10,7 +10,7 @@ content_views:
     desc: "Red Hat Enterprise Linux 7 Standard Operating Environment Content"
     org: "{{ sat_organization }}"
     repositories:
-    - name: "Red Hat Enterprise Linux 7 Server Kickstart x86_64 7.9"
+    - name: "Red Hat Enterprise Linux 7 Server Beta Kickstart x86_64"
       product: "Red Hat Enterprise Linux Server"
     - name: "Red Hat Ansible Engine 2.9 RPMs for Red Hat Enterprise Linux 7 Server x86_64"
       product: "Red Hat Ansible Engine"
@@ -131,7 +131,7 @@ content_views:
     desc: "Red Hat Enterprise Linux 7 Standard Operating Environment Content"
     org: "{{ sat_organization }}"
     repositories:
-    - name: "Red Hat Enterprise Linux 7 Server Kickstart x86_64 7.9"
+    - name: "Red Hat Enterprise Linux 7 Server Beta Kickstart x86_64"
       product: "Red Hat Enterprise Linux Server"
     - name: "Red Hat Ansible Engine 2.9 RPMs for Red Hat Enterprise Linux 7 Server x86_64"
       product: "Red Hat Ansible Engine"
