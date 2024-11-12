@@ -90,12 +90,12 @@ content_views:
       description: "Include all packages with no errata for all repositories"
       original_packages: true
       repositories: "[]"
-    - name: "AllStreamsNoErrata"
-      type: "modulemd"
-      inclusion: "true"
-      description: "Include all packages with no errata for all repositories"
-      original_packages: true
-      repositories: "[]"
+    # - name: "AllStreamsNoErrata"
+    #   type: "modulemd"
+    #   inclusion: "true"
+    #   description: "Include all packages with no errata for all repositories"
+    #   original_packages: true
+    #   repositories: "[]"
     - name: "ErrataByDate"
       type: "erratum"
       inclusion: "true"
@@ -202,12 +202,12 @@ content_views:
       description: "Include all packages with no errata for all repositories"
       original_packages: true
       repositories: "[]"
-    - name: "AllStreamsNoErrata"
-      type: "module"
-      inclusion: "true"
-      description: "Include all packages with no errata for all repositories"
-      original_packages: true
-      repositories: "[]"
+    # - name: "AllStreamsNoErrata"
+    #   type: "module"
+    #   inclusion: "true"
+    #   description: "Include all packages with no errata for all repositories"
+    #   original_packages: true
+    #   repositories: "[]"
     - name: "ErrataByDate"
       type: "erratum"
       inclusion: "true"
@@ -247,12 +247,12 @@ content_views:
       description: "Include all packages with no errata for all repositories"
       original_packages: true
       repositories: "[]"
-    - name: "AllStreamsNoErrata"
-      type: "module"
-      inclusion: "true"
-      description: "Include all packages with no errata for all repositories"
-      original_packages: true
-      repositories: "[]"
+    # - name: "AllStreamsNoErrata"
+    #   type: "module"
+    #   inclusion: "true"
+    #   description: "Include all packages with no errata for all repositories"
+    #   original_packages: true
+    #   repositories: "[]"
     - name: "ErrataByDate"
       type: "erratum"
       inclusion: "true"
