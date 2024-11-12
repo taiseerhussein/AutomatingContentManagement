@@ -69,7 +69,7 @@ content_views:
     desc: "Red Hat Enterprise Linux 8 Standard Operating Environment Content"
     org: "{{ sat_organization }}"
     repositories:
-    - name: "Red Hat Ansible Engine 2.9 for RHEL 8 x86_64 RPMs "
+    - name: "Red Hat Ansible Engine 2.9 for RHEL 8 x86_64 RPMs"
       product: "Red Hat Ansible Engine"
     - name: "Red Hat Enterprise Linux 8 for x86_64 - AppStream RPMs 8"
       product: "Red Hat Enterprise Linux for x86_64"
