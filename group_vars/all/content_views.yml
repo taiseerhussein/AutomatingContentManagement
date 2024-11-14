@@ -12,7 +12,7 @@ content_views:
     repositories:
     - name: "Red Hat Enterprise Linux 7 Server Kickstart x86_64 7.9"
       product: "Red Hat Enterprise Linux Server"
-    - name: "Red Hat Ansible Engine 2.9 Debug RPMs for Red Hat Enterprise Linux 7 Server x86_64"
+    - name: "Red Hat Ansible Engine 2.9 RPMs for Red Hat Enterprise Linux 7 Server x86_64"
       product: "Red Hat Ansible Engine"
     - name: "Red Hat Satellite Tools 6.10 for RHEL 7 Server RPMs x86_64"
       product: "Red Hat Enterprise Linux Server"
